@@ -1,0 +1,60 @@
+.formWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-right: 150px;
+    padding-left: 150px;
+
+    width: 1320px;
+    height: 766px;
+
+
+    margin-bottom: 120px;
+
+    background-color: #F0EFE9;
+}
+
+input {
+    border:none;
+}
+form h2 {
+    margin-top: 140px;
+    margin-bottom: 20px;
+    width: 420px;
+    align-self: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+form button {
+    margin-top: 40px;
+}
+
+.formMsg {
+    margin-top: 15px;
+    height: 150px;
+    border-radius: 25px;
+    padding-left: 10px;
+}
+
+.formName {
+    height: 55px;
+    border-radius: 25px;
+    padding-left: 10px;
+}
+
+.formEmail {
+    margin-top: 15px;
+    height: 55px;
+    border-radius: 25px;
+    padding-left: 10px;
+}
+
+.error {
+    background-color: rgb(238, 158, 158);
+}

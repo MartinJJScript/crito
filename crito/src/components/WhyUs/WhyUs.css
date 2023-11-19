@@ -1,0 +1,79 @@
+.whyUs .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 0px 180px 0px;
+  }
+  .whyUs .container .section-title {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .whyUs .container .section-title h2 {
+    width: 800px;
+    padding-right: 400px;
+  }
+  .whyUs .container .section-title article {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .whyUs .container .section-title article div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 300px;
+  }
+  .whyUs .container .section-title article h3 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #191919;
+    padding-bottom: 5px;
+    padding-left: 70px;
+  }
+  .whyUs .container .section-title article p {
+    color: #191919;
+    padding-left: 70px;
+  }
+  .whyUs .container .section-title article i {
+    font-size: 30px;
+    padding: 12px;
+    border-radius: 50%;
+    border: 1px solid rgb(214, 212, 212);
+    width: 55px;
+    position: absolute;
+  }
+  .whyUs .container .image {
+    background-image: url("../../assets/images/Backpanel.svg");
+    background-position: top 200px right 0px;
+    background-repeat: no-repeat;
+    padding: 0px 300px 200px 0px;
+    margin: 0px -300px -200px 0px;
+    flex: 1;
+    display: flex;
+  }
+  .whyUs .container .image img {
+    padding-top: 30px;
+    width: 645px;
+    height: 505px;
+  }
+  @media (min-width: 1200px) {
+    .whyUs .container {
+      padding: 60px 0px 120px 0px;
+    }
+    .whyUs .container .section-title {
+      width: 450px;
+    }
+    .whyUs .container .section-title h2 {
+      width: 450px;
+      padding-right: 0px;
+    }
+    .whyUs .container .section-title article div {
+      width: 450px;
+    }
+    .whyUs .container img {
+      margin-left: 150px;
+    }
+  }

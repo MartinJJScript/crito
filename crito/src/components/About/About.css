@@ -1,0 +1,72 @@
+.about {
+    position: relative;
+    padding-top: 180px;
+    padding-bottom: 120px;
+  }
+  .about .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .about .container .image {
+    margin-left: 55px;
+  }
+  .about .container .founder {
+    position: absolute;
+    top: 571px;
+    height: 180px;
+    width: 368px;
+    background-color: #BEEBFF;
+    padding-top: 40px;
+    padding-left: 30px;
+  }
+  .about .container .founder h4 {
+    color: #191919;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  .about .container .founder h4 span {
+    font-size: 16px;
+    color: #F94D1C;
+  }
+  .about .container .about-company {
+    padding-left: 60px;
+  }
+  .about .container .about-company h2 {
+    width: 400px;
+  }
+  .about .container .about-company p {
+    width: 400px;
+    padding-top: 40px;
+    padding-right: 40px;
+  }
+  .about .container .about-company .link-player {
+    margin-top: 110px;
+    display: flex;
+    align-items: center;
+  }
+  .about .container .about-company .link-player button {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .about .container .about-company .link-player .player {
+    font-size: 40px;
+    padding-left: 60px;
+    padding-right: 10px;
+  }
+  @media (min-width: 1200px) {
+    .about .container {
+      flex-direction: row;
+    }
+    .about .container .about-company {
+      padding-left: 180px;
+    }
+    .about .container .about-company h2 {
+      width: 450px;
+    }
+    .about .container .about-company p {
+      width: 450px;
+      padding-top: 30px;
+    }
+  }

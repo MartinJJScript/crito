@@ -1,0 +1,97 @@
+.features {
+    display: flex;
+    justify-content: center;
+  }
+  @media (min-width: 1200px) {
+    .features .borderWrapper {
+      width: 1520px;
+      height: 600px;
+      border: 1px solid #c9c9c9;
+    }
+  }
+  .features .container {
+    padding-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 50px;
+  }
+  .features .container .section-title {
+    grid-column: 1/8;
+    grid-row: 1/2;
+    padding-right: 60px;
+  }
+  .features .container .section-title h2 {
+    padding-bottom: 40px;
+    width: 400px;
+  }
+  .features .container .button {
+    height: 50px;
+    padding-top: 12px;
+    grid-column: 1/8;
+    grid-row: 2/2;
+    width: 50%;
+  }
+  .features .container .button i {
+    font-size: 15px;
+  }
+  .features .container h3 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #191919;
+    padding-bottom: 15px;
+  }
+  .features .container i {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  .features .container .info {
+    padding-right: 40px;
+  }
+  .features .container .Advice {
+    grid-column: 1/4;
+    grid-row: 3/4;
+  }
+  .features .container .Startup {
+    grid-column: 4/8;
+    grid-row: 3/4;
+  }
+  .features .container .Financial {
+    grid-column: 1/4;
+    grid-row: 4/5;
+  }
+  .features .container .Risk {
+    grid-column: 4/8;
+    grid-row: 4/5;
+  }
+  @media (min-width: 1200px) {
+    .features .container .section-title {
+      grid-column: 1/4;
+      grid-row: 1/2;
+    }
+    .features .container .section-title h2 {
+      width: 450px;
+    }
+    .features .container .button {
+      grid-column: 1/4;
+      grid-row: 2/2;
+      width: 90%;
+    }
+    .features .container .Advice {
+      grid-column: 4/6;
+      grid-row: 1/2;
+    }
+    .features .container .Startup {
+      grid-column: 6/8;
+      grid-row: 1/2;
+    }
+    .features .container .Financial {
+      grid-column: 4/6;
+      grid-row: 2/2;
+    }
+    .features .container .Risk {
+      grid-column: 6/8;
+      grid-row: 2/2;
+    }
+  }

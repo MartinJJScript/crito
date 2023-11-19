@@ -1,0 +1,11 @@
+.Logos .container {
+    padding-top: 50px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .Logos .container .square {
+    padding-left: 70px;
+  }

@@ -1,0 +1,37 @@
+.signup {
+    background-color: #F0EFE9;
+    background-image: url("../../assets/images/lineElementGrey.svg");
+    background-position: 100% 60%;
+    background-repeat: no-repeat;
+  }
+  .signup .container {
+    display: flex;
+    align-self: center;
+    padding-top: 120px;
+    padding-bottom: 100px;
+  }
+  .signup .container .button {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 300px;
+  }
+  .signup .container .button i {
+    padding-top: 5px;
+  }
+  .signup .container input[type=text] {
+    height: 60px;
+    color: #707070;
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 300px;
+    text-align: center;
+    margin-left: 160px;
+    margin-right: 20px;
+  }
+  @media (min-width: 1200px) {
+    .signup .container .button {
+      width: 200px;
+      justify-content: center;
+    }
+  }

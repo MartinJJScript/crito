@@ -1,0 +1,45 @@
+.ourTeam {
+    background-color: #F0D082;
+    padding-bottom: 60px;
+  }
+  .ourTeam .container .wrapper {
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .ourTeam .container .wrapper .button {
+    margin-top: 20px;
+    background-color: #F9D783;
+    border: 1px solid #191919;
+    height: 50px;
+    width: 200px;
+  }
+  .ourTeam .container .wrapper .button:hover {
+    background-color: #191919;
+  }
+  .ourTeam .container .teamMembers {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .ourTeam .container .teamMembers h3 {
+    padding-top: 30px;
+  }
+  .ourTeam .container .teamMembers p {
+    color: #707070;
+  }
+  .ourTeam .container img {
+    padding-top: 50px;
+    display: block;
+    margin: 0px auto 0px auto;
+  }
+  @media (min-width: 1200px) {
+    .ourTeam .container .wrapper .button {
+      align-self: flex-end;
+    }
+    .ourTeam .container .teamMembers {
+      padding-top: 100px;
+    }
+  }
